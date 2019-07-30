@@ -3,4 +3,4 @@
 *.kicad_pcb-bak
 build
 node_modules
-
+gerber.zip
