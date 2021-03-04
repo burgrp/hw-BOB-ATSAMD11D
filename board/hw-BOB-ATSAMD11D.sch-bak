@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 30 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -25,7 +25,7 @@ F 3 "http://ww1.microchip.com/downloads/en/DeviceDoc/Atmel-42363-SAM-D11_Datashe
 	1    0    0    -1  
 $EndComp
 $Comp
-L hw-BOB-ATSAMD11D-rescue:SWD-Drake X3
+L Drake:SWD X3
 U 1 1 5D3736EB
 P 3550 4700
 F 0 "X3" H 3656 5047 60  0000 C CNN

@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name hw-BOB-ATSAMD11D-rescue)(type Legacy)(uri ${KIPRJMOD}/hw-BOB-ATSAMD11D-rescue.lib)(options "")(descr ""))
+)

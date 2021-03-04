@@ -29,8 +29,8 @@
     </comp>
     <comp ref="X3">
       <value>SWD</value>
-      <footprint>device.farm:SWD</footprint>
-      <libsource lib="device.farm" part="SWD" description=""/>
+      <footprint>Drake:SWD</footprint>
+      <libsource lib="Drake" part="SWD" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D3736EB</tstamp>
     </comp>
@@ -77,7 +77,7 @@
     <comp ref="U2">
       <value>SPX3819M5-L-3-3</value>
       <footprint>Package_TO_SOT_SMD:SOT-23-5_HandSoldering</footprint>
-      <libsource lib="device.farm" part="SPX3819" description=""/>
+      <libsource lib="Drake" part="SPX3819" description=""/>
       <sheetpath names="/" tstamps="/"/>
       <tstamp>5D374DA4</tstamp>
     </comp>
@@ -123,7 +123,7 @@
     </comp>
     <comp ref="X4">
       <value>USB_B_Micro</value>
-      <footprint>device.farm:conn_usb_B_micro_smd-2</footprint>
+      <footprint>Drake:conn_usb_B_micro_smd-2</footprint>
       <datasheet>~</datasheet>
       <libsource lib="Connector" part="USB_B_Micro" description="USB Micro Type B connector"/>
       <sheetpath names="/" tstamps="/"/>
@@ -277,7 +277,7 @@
         <pin num="20" name="PA04" type="BiDi"/>
       </pins>
     </libpart>
-    <libpart lib="device.farm" part="RT9193">
+    <libpart lib="Drake" part="RT9193">
       <aliases>
         <alias>SPX3819</alias>
       </aliases>
@@ -293,7 +293,7 @@
         <pin num="5" name="VOUT" type="input"/>
       </pins>
     </libpart>
-    <libpart lib="device.farm" part="SWD">
+    <libpart lib="Drake" part="SWD">
       <fields>
         <field name="Reference">X</field>
         <field name="Value">SWD</field>
@@ -315,8 +315,8 @@
     <library logical="MCU_Microchip_SAMD">
       <uri>/home/paul/git/kicad-symbols/MCU_Microchip_SAMD.lib</uri>
     </library>
-    <library logical="device.farm">
-      <uri>/home/paul/df/hw-kicad/device.farm.lib</uri>
+    <library logical="Drake">
+      <uri>/home/paul/df/hw-kicad/Drake.lib</uri>
     </library>
   </libraries>
   <nets>
